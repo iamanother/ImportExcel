@@ -49,6 +49,6 @@ Remove-Item $path -ErrorAction SilentlyContinue
 
 $sheet1 | Export-Excel $path -WorksheetName Sheet1
 $sheet2 | Export-Excel $path -WorksheetName Sheet2
-$sheet3 | Export-Excel $xlfile -WorksheetName Sheet3
+$sheet3 | Export-Excel $path -WorksheetName Sheet3
 
 $path
